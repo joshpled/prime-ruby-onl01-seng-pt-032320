@@ -5,6 +5,7 @@ def prime?(int)
     return false
   else
     return true
+  end
   # factors = (3..200)
   # factors.each do |i|
   #     false if divisible_by? i
