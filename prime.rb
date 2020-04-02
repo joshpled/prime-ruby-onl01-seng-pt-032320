@@ -5,7 +5,10 @@ def prime?(int)
     return false
   elsif int.negative?
     return false
-  else true
+  elsif int == 2
+    return true
+  else
+    return true
   end
   # factors = (3..200)
   # factors.each do |i|
