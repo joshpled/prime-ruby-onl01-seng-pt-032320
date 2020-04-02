@@ -1,8 +1,10 @@
+require 'pry'
 def prime?(int)
   if int == 2
     return true
-    elsif int.even? && int == 1 || 0
+  elsif int.even? && int == 1 || 0
     return false
+    binding.pry
   elsif int % 10 == 5
     return false
   elsif int.negative?
