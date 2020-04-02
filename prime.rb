@@ -1,5 +1,5 @@
 def prime?(int)
-  if int.even? && int == 1
+  if int.even? && int == 1 || 0
     return false
   elsif int % 10 == 5
     return false
